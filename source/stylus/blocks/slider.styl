@@ -1,0 +1,59 @@
+.slider
+  padding 25px 0 50px 0
+  background-color #f8f8f8
+
+.slider__wrapper
+  width 100%
+  max-width 1010px
+  padding 0 10px
+  margin 0 auto
+  display flex
+  justify-content space-between
+  align-items center
+  box-sizing border-box
+
+.slider__form
+  width 25%
+  padding 25px 25px 45px 25px
+  display flex
+  flex-direction column
+  background-color #ebebeb
+  box-sizing border-box
+
+.slider__input
+  min-height 50px
+  padding-left 20px
+  padding-right 20px
+  margin-bottom 30px
+  font-family "Myriad Pro", Arial, serif
+  font-size 25px
+  letter-spacing 0.025em
+  color #767676
+
+  &:placegolder
+    font-family "Myriad Pro", Arial, serif
+    font-size 25px
+    letter-spacing 0.025em
+    color #767676
+
+.slider__button
+  min-height 60px
+  font-family "Myriad Pro", Arial, serif
+  font-size 25px
+  letter-spacing 0.025em
+  color #ffffff
+  border none
+  background-color #6f6f6f
+  cursor pointer
+
+@media (max-width: $tablet)
+  .slider__image
+    width 100%
+    height auto
+    margin-bottom 20px
+
+  .slider__wrapper
+    flex-direction column
+
+  .slider__form
+    width 50%

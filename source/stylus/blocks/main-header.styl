@@ -1,0 +1,36 @@
+.main-header
+  background-color #dcdcdc
+
+.main-header__wrapper
+  width 100%
+  max-width 1010px
+  padding 60px 10px
+  margin 0 auto
+  box-sizing border-box
+
+.main-header__info
+  display flex
+  justify-content space-between
+  align-items center
+
+.main-header__phone-list
+  padding 0
+  margin 0
+  list-style none
+
+.main-header__link
+  font-family "Open Sans Condensed", Arial, serif
+  font-size 40px
+  letter-spacing 0.025em
+  color #767676
+  text-decoration none
+
+  &:visited
+    color #767676
+
+  &:hover
+    text-decoration underline
+
+@media (max-width: $tablet)
+  .main-header__info
+    flex-direction column
